@@ -1,5 +1,5 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+name:               "Valeria Chiesa"
+description:        "Ph.D. candidate in Signal and Image Processing"
 
 url:                ""
 author:             "thinker3197"
@@ -14,7 +14,7 @@ facebook:           "jhondoe"
 
 disqus_shortname:   "thinker3197"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBd83qjHnChTl0OGCuH2GujdirP2kGwvoWzCs3kKDChkJUEYQew" 
 
 paginate:           5
 paginate_path:      "/page:num/"
@@ -31,7 +31,9 @@ nav:
     href:           "/releases"
   - name:           "My publications"
     href:           "/publications"
-
+  - name:           "Projects"
+    href:           "/project"
+    
 sass:
   style:            :compressed
 

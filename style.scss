@@ -335,7 +335,7 @@ tbody tr:nth-child(odd) th {
         height: auto;
         width: 100%;
         text-align: center;
-        color: #BDBDBD;
+        color: #000399;
     }
     .social {
         margin-left: 25vw;
@@ -461,7 +461,7 @@ tbody tr:nth-child(odd) th {
 
 .bloghead-nav {
 	a {
-		color: #099;
+		color: #000399;
 		font-weight: 600;
 		&:hover {
 			color: #424242;
@@ -469,7 +469,7 @@ tbody tr:nth-child(odd) th {
 	}
 	span {
 		font-weight: 600;
-		color: #424242;
+		color: #000399;
 		&:hover,
 		&:focus {
 			color: #EC407A;

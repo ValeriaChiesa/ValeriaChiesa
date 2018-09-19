@@ -439,9 +439,10 @@ tbody tr:nth-child(odd) th {
 
 .contact {
 	font-size: 14px;
-	color: #ffffff;
+	color: #e8c291;
 	text-align: center;
 	margin-top: 10vw;
+	font-weight: bold;
 }
 
 .posts {
@@ -464,7 +465,10 @@ tbody tr:nth-child(odd) th {
 		color: #000399;
 		font-weight: 600;
 		&:hover {
-			color: #424242;
+			color: #eff0f3;
+		}
+		&:active {
+			color: #eff0f3;
 		}
 	}
 	span {
@@ -472,8 +476,11 @@ tbody tr:nth-child(odd) th {
 		color: #000399;
 		&:hover,
 		&:focus {
-			color: #EC407A;
+			color: #eff0f3;
 			text-decoration: none;
+		}
+		&:current {
+			color: #eff0f3;
 		}
 	}
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+{% include nav.html %}
 
 
 	
@@ -14,9 +15,27 @@
 		<div>
 			<nav class="bloghead-nav">
 				{% for nav in site.nav %}
-				<ul><a href="{{ nav.href }}">{{ nav.name }} <br/></a></ul> {% endfor %}
+				<ul><li><a href="{{ nav.href }}">{{ nav.name }} <br/></a></li></ul> {% endfor %}
 			</nav>
 		</div>
+		
+		<!--<div>
+			<nav class="bloghead-nav">
+				<ul>
+				<li>
+					<a class="mdi mdi-home" href="/">
+					::before
+					"Home"
+					</a>
+				</li>
+				<li class="current">
+					<a class href="/about">CV</a>
+				</li>
+				<li>
+					<a class href="/publications">Publications</a>
+				</li>
+			</nav>
+		</div>-->
 		
 		<div class="contact">
 			valeria.chiesa@eurecom.fr

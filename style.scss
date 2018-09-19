@@ -315,6 +315,7 @@ tbody tr:nth-child(odd) th {
     background-repeat:no-repeat;
     background-size: cover; 
     background-position:center;
+	position: relative;
     .img-circle {
         height: auto;
         width: 20%;
@@ -441,8 +442,9 @@ tbody tr:nth-child(odd) th {
 	font-size: 14px;
 	color: #e8c291;
 	text-align: center;
-	margin-top: 10vw;
+	position: absolute;
 	font-weight: bold;
+	font-width: 100%;
 }
 
 .posts {
@@ -460,7 +462,7 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-.bloghead-nav {
+.bloghead-nav_ {
 	a {
 		color: #000399;
 		font-weight: 600;
@@ -483,6 +485,52 @@ tbody tr:nth-child(odd) th {
 			color: #eff0f3;
 		}
 	}
+}
+
+.bloghead-nav {
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	padding: 0.4em;
+	color: #000399;
+	font-weight: bold;
+}
+
+.bloghead-nav li {
+	display: inline-block;
+	font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.bloghead-nav li {
+		margin: 0 0.3em;
+	}
+}
+
+.bloghead-nav li a {
+	//text-transform: uppercase;
+	color: #000399;
+	font-weight: bold;
+	//padding: 0.5rem 0.5rem 0.1rem;
+	display: inline-block;
+}
+
+.bloghead-nav li a.mdi {
+	font-size: 0;
+}
+
+.bloghead-nav li a.mdi::before {
+	font-size: 1.3rem;
+}
+
+.bloghead-nav li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bloghead-nav li.current a {
+	color: #fff;
+	border-bottom: 2px solid #ffc107;
 }
 
 .bloghead {

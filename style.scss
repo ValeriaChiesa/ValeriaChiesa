@@ -372,7 +372,7 @@ tbody tr:nth-child(odd) th {
         }
         .social {
             position: absolute;
-            top: 0;
+            top: 0vw;
             margin-left: 2vw;
             a {
                 padding: 0;
@@ -382,11 +382,15 @@ tbody tr:nth-child(odd) th {
     }
 }
 
+.project{
+	margin-bottom: 2em;
+}
+
 .contact {
-	font-size: 16px;
+	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
-	margin-top: 20vw;
+	margin-top: 10vw;
 }
 
 .posts {

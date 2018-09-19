@@ -307,6 +307,7 @@ tbody tr:nth-child(odd) th {
 .link{
 	display: block;
     font-size: 0.8em;
+	text-decoration: underline;
 }
 
 .profile {
@@ -387,10 +388,21 @@ tbody tr:nth-child(odd) th {
 	img {
 		height: 100px;
 		width: 80px;
+		float: left;
 	}
 	p {
 		margin-left: 120px;
 		font-size: 16px;
+		text-align: justify;
+	}
+	h1 {
+		font-size: 18px;
+	}
+	h6 {
+		font-size: 12px;
+	}
+	.clearfix {
+		overflow: auto;
 	}
 }
 

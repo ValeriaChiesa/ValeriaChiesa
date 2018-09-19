@@ -25,17 +25,17 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 nav:
-  - name:           "About"
+  - name:           "CV"
     href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
   - name:           "My publications"
     href:           "/publications"
   - name:           "Projects"
     href:           "/project"
   - name:           "Experience"
     href:           "/experience"
-    
+  - name:           "Contacts"
+    href:           "/contact"
+
 sass:
   style:            :compressed
 

@@ -406,6 +406,36 @@ tbody tr:nth-child(odd) th {
 	}
 }
 
+.demo {
+	margin-bottom: 2em;
+	@media only screen and (min-width: 600px) {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: box;
+		display: flex;
+  
+    p {
+		padding-left: 1em;
+	}
+	h2 {
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-o-box-flex: 1;
+		box-flex: 1;
+		-webkit-flex: 0 0 5em;
+		-ms-flex: 0 0 5em;
+		flex: 0 0 5em;
+	}
+	img {
+		max-width: 10em;
+	  }
+    }
+}
+
+
+
 
 .contact {
 	font-size: 14px;

@@ -1,15 +1,30 @@
 ---
-title: About
+title: CV
 permalink: /about/
 ---
 
-Hi, I should tell you who I am, what I want to do, what I would like to be and what I hope for the future but I will do it later. 
++ #**Istruction**
 
-- My interests
-
-<span class="link"><a href="https://it.wikipedia.org/wiki/Ciao">SLIDES</a></span>
-
-
-<p class="heavy-title"><a href="http://github.com/thinker3197/Ink">Ink</a> is a simple & minimalistic theme for <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
-
->Designed and developed by [@thinker3197](https://github.com/thinker3197).
+	- **2015 - now**:
+	
+		[**EURECOM**](http://www.eurecom.fr/fr)
+		
+		Ph.D. Candidate in Signal and Image Processing
+		
+	- **2011 - 2014**
+	
+		**Politecnico di Milano**
+		
+		Master in Mathematical Engineering
+	
+	- **2014 Mar - 2014 Jul**
+	
+		**GipsaLab**
+		
+		Master internship on Image Forensic
+		
+	- **2007 - 2011**
+	
+		**Politecnico di Milano**
+		
+		Bachelor in Mathematical Engineering

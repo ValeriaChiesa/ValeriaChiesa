@@ -14,7 +14,7 @@ facebook:           "jhondoe"
 
 disqus_shortname:   "thinker3197"
 
-background:         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBd83qjHnChTl0OGCuH2GujdirP2kGwvoWzCs3kKDChkJUEYQew" 
+background:         "/images/BKG.jpg" 
 
 paginate:           5
 paginate_path:      "/page:num/"

@@ -5,8 +5,6 @@ permalink: /contact/
 ---
 
 
-**Valeria Chiesa**
-
 email: valeria.chiesa@eurecom.fr
 
 Phone: +33 4 93 00 82 17

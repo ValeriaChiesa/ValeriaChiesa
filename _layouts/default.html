@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-{% include nav.html %}
-
-
 	
 <body class="preload">
     <div class="top"></div>
     <div class="profile" style="background-image: url({{ site.background }});">
         <img src="/images/me.jpg" class="img-circle" />
-        <h3>{{ site.name }}</h3>
+        <!--<h3>{{ site.name }}</h3>-->
+		<h3><a href="{{ site.baseurl }}/">{{ site.name }}</a></h3>
         <p>{{ site.description }}</p>
 		
-		<div>
-			<nav class="bloghead-nav">
-				{% for nav in site.nav %}
+		<div class="inner">
+		{% include nav.html %}
+			<!--<nav class="bloghead-nav">
+				{% for nav in site.navigation %}
 				<ul><li><a href="{{ nav.href }}">{{ nav.name }} <br/></a></li></ul> {% endfor %}
-			</nav>
+			</nav>-->
 		</div>
 		
 		<!--<div>

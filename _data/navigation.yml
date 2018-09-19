@@ -1,0 +1,17 @@
+# Belongs at: /_data/navigation.yml- 
+
+
+- title: CV
+  url: /about
+
+- title: Experience
+  url: /experience
+
+- title: Projects
+  url: /project
+  
+- title: My publications
+  url: /publications
+  
+- title: Contacts
+  url: /contact

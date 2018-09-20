@@ -445,6 +445,7 @@ tbody tr:nth-child(odd) th {
 	position: absolute;
 	font-weight: bold;
 	font-width: 100%;
+	bottom: 1em;
 }
 
 .posts {
@@ -488,7 +489,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .bloghead-nav {
-	position: absolute;
+	position: relative;
 	z-index: 10;
 	text-align: center;
 	padding: 0.4em;
